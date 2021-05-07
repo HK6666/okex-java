@@ -17,6 +17,6 @@ public class Login {
 	
 	@RequestMapping(path = "/login", method = RequestMethod.POST)
 	public String login() throws Exception {
-		return loginServer.Login();
+		return null;
 	}
 }
