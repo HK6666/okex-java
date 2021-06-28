@@ -20,6 +20,7 @@ public class MailServiceImpl  {
 	private String from;
 	
 	
+	
 	public void sendSimpleMail(String to, String subject, String content) throws MailException {
 		SimpleMailMessage message = new SimpleMailMessage();
 		message.setFrom(from); // 邮件发送者

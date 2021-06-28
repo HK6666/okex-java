@@ -1,12 +1,12 @@
-mail:
-  host: smtp.qq.com
-  default-encoding: UTF-8
-  username: 1142135247@qq.com
-  password: vrpryqhxigzchgce
-  properties:
-    mail:
-      smtp:
-        auth: true
-        starttls:
-          enable: false
-          required: false
+#mail:
+#  host: smtp.qq.com
+#  default-encoding: UTF-8
+#  username: 1142135247@qq.com
+#  password: vrpryqhxigzchgce
+#  properties:
+#    mail:
+#      smtp:
+#        auth: true
+#        starttls:
+#          enable: false
+#          required: false
