@@ -29,7 +29,7 @@ public class babyDogeServer {
 	@Autowired
 	private RestTemplate restTemplate;
 	
-	@Scheduled(fixedRate = 50000)
+	@Scheduled(fixedRate = 500000)
 	public void address() throws IOException {
 		HttpHeaders requestHeaders = new HttpHeaders();
 		requestHeaders.setContentType(MediaType.valueOf(MediaType.TEXT_HTML_VALUE));
