@@ -9,5 +9,5 @@ import com.fasterxml.jackson.databind.annotation.JsonNaming;
 @JsonNaming(value = PropertyNamingStrategy.SnakeCaseStrategy.class)
 @lombok.Data
 public class Data {
-	String last; //产品金额
+	String holder; //人数
 }

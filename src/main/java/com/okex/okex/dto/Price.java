@@ -12,5 +12,5 @@ import java.util.List;
 @JsonNaming(value = PropertyNamingStrategy.SnakeCaseStrategy.class)
 @Data
 public class Price {
-	List data;
+	com.okex.okex.dto.Data data;
 }
